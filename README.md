@@ -59,5 +59,5 @@ $ kubectl -f nginx-ingress-version.sh
 
 [http://hellotravix.kubetest.cf:30936/](http://hellotravix.kubetest.cf:30936/)
 [http://helloworld.kubetest.cf:30936/](http://helloworld.kubetest.cf:30936/)  
-[http://40.87.6.237:30936](http://40.87.6.237:30936)/  (default backend 404)
+[http://40.87.6.237:30936](http://40.87.6.237:30936/)  (default backend 404)
 
