@@ -1,0 +1,21 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: basic-ingress
+spec:
+  rules:
+  - host: hellotravix.kubetest.cf
+    http:
+      paths:
+      - path: / 
+        backend: 
+          serviceName: nginxsrv
+          servicePort: 80
+  - host: helloworld.kubetest.cf
+    http:
+      paths:
+      - path: /
+        backend: 
+          serviceName: web
+          servicePort: 8080
+
